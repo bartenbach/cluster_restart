@@ -60,7 +60,7 @@ N/A - no patch at this time
 As it boots, it will load the snapshot for slot 254108257 and wait for 80% of the stake to come online before producing/validating new blocks. 
 
 To confirm your restarted validator is correctly waiting for 80% stake, look for this periodic log message to confirm it is waiting:
-INFO  solana_core::validator] Waiting for 80% of activated stake at slot 246464040 to be in gossip...
+INFO  solana_core::validator] Waiting for 80% of activated stake at slot 254108257 to be in gossip...
 
 And if you have RPC enabled, ask it repeated for the current slot:
 ```
