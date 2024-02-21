@@ -8,7 +8,7 @@ Block production on Solana Testnet has halted at approximately 16:30 UTC on 21 F
 
 Note: If your last confirmed slot is lower than that the one listed below, this is likely your node crashed before it was able to observe the latest supermajority. In this case, update according to step 2 then proceed to the Appendix.
 
-Important: DO NOT delete your ledger directory.
+**Important: DO NOT delete your ledger directory.**
 
 ## Step 1: Create a snapshot at slot 254108256
 You need to stop your validator process if it is still running.
@@ -35,7 +35,7 @@ Shred version: 35459
 ``` 
 
 ## Step 2: Adjust your validator command-line arguments, temporarily for this restart to include:
-(--known-validators aren’t needed if you have your own local snapshot and have set –no-genesis-fetch as your validator won’t be downloading anything, you can omit those arguments in this case)
+`--known-validators` aren’t needed if you have your own local snapshot and have set –no-genesis-fetch as your validator won’t be downloading anything, you can omit those arguments in this case.
 
 **If you use a have a hot failover setup ensure you start with the correct identity!**
 
