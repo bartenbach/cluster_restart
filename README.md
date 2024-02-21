@@ -15,7 +15,7 @@ You need to stop your validator process if it is still running.
 
 Use the ledger tool to create a new snapshot at slot 254108256, replacing `<ledger-path>`, `<snapshot-path>`, and `<incremental-snapshot-path>` with their respective actual paths.
 
-**Hint: if you haven't changed your incremental-snapshot-path, it's the same as your snapshot path. If you haven't changed either snapshot path, just use your ledger path for everything.**
+**Hint: if you haven't changed your incremental-snapshot-path, it's the same as your snapshot path. If you haven't changed ANY snapshot paths, use your ledger path for all paths below.**
 ```
 solana-ledger-tool -l <ledger-path> \
 --snapshot-archive-path <snapshot-path> \
