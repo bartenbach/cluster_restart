@@ -2,7 +2,7 @@
 
 Block production on Solana Testnet has halted at approximately 16:30 UTC on 21 February 2024.
 
-## Confirm highest optimistic slot:
+## Confirm highest optimistic slot
 
 `solana-ledger-tool -l <ledger-path> latest-optimistic-slots`
 
