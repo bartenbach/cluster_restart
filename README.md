@@ -35,13 +35,6 @@ Successfully created snapshot for slot 254108257, hash 4rWEDhTyQVgTw6sPoCthXmUNm
 Shred version: 35459
 ``` 
 
-Check your ledger/ directory to ensure that you have no snapshot newer than `snapshot-246464040-9kmqknr1D8pQXn92dWMDWvfZ9nwzgxRQ6JnbUrG3KN4F.tar.zst` This is very unlikely, but if found should be removed - please post on Discord if you were to find a newer snapshot! Snapshots older than `snapshot-246464040-9kmqknr1D8pQXn92dWMDWvfZ9nwzgxRQ6JnbUrG3KN4F.tar.zst` should not be removed.
-
-NOTE: You may need to move the created snapshot from your ledger directory to your snapshots directory if you have a custom snapshot directory
-
-NOTE: If you receive “Error: Slot 246464040 is not available”, please see appendix
-
-
 ## Step 2: Adjust your validator command-line arguments, temporarily for this restart to include:
 (--known-validators aren’t needed if you have your own local snapshot and have set –no-genesis-fetch as your validator won’t be downloading anything, you can omit those arguments in this case)
 
