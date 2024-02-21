@@ -13,10 +13,7 @@ Important: DO NOT delete your ledger directory.
 ## Step 1: Create a snapshot at slot 254108256
 You need to stop your validator process if it is still running.
 
-This document assumes your ledger directory is called ledger/.  If not then adjust the following commands accordingly.
-
-Use the ledger tool to create a new snapshot at slot 254108256, replacing the two instances of <ledger path> to your actual ledger path:
-
+Use the ledger tool to create a new snapshot at slot 254108256, replacing <ledger-path> and <snapshot-path> with their respective actual paths:
 ```
 solana-ledger-tool -l <ledger-path> \
 --snapshot-archive-path <snapshot-path> \
