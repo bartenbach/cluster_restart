@@ -6,7 +6,7 @@ Block production on Solana Testnet has halted at approximately 16:30 UTC on 21 F
 
 **solana-ledger-tool -l ledger latest-optimistic-slots**
 
-Note: If your last confirmed slot is lower than that the one listed above, this is likely your node crashed before it was able to observe the latest supermajority. In this case, update according to step 2 then proceed to the Appendix.
+Note: If your last confirmed slot is lower than that the one listed below, this is likely your node crashed before it was able to observe the latest supermajority. In this case, update according to step 2 then proceed to the Appendix.
 
 Important: DO NOT delete your ledger directory.
 
