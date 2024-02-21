@@ -14,6 +14,7 @@ Important: DO NOT delete your ledger directory.
 You need to stop your validator process if it is still running.
 
 Use the ledger tool to create a new snapshot at slot 254108256, replacing `<ledger-path>`, `<snapshot-path>`, and `<incremental-snapshot-path>` with their respective actual paths.
+
 (Hint: if you haven't changed your incremental-snapshot-path, it's the same as your snapshot path)
 ```
 solana-ledger-tool -l <ledger-path> \
@@ -24,9 +25,9 @@ create-snapshot 254108256 <snapshot-path> \
 --deactivate-feature-gate EJJewYSddEEtSZHiqugnvhQHiWyZKjkFDQASd7oKSagn
 ```
  
-If you have a custom accounts path add `--accounts <PATH_TO_ACCOUNTS> \` before `--hard-fork`
+If you have a custom accounts path add `--accounts <accounts-path> \` before `--hard-fork`
 
-The final line of output should be 
+The final line of output should be
 
 ```
 Successfully created snapshot for slot 254108257, hash 4rWEDhTyQVgTw6sPoCthXmUNmjeiwsdKQ5ZNvpEi3uvk: <ledger-path>/snapshot-254108257-ABaHfFrncb3Y9KXHJu25uV3McaqDda2xhWdUCtqmaSEe.tar.zst
