@@ -80,7 +80,7 @@ If you couldn’t produce your snapshot locally follow appendix on next page bel
 
 
 
-## Appendix: Resolution if you did not preserve your ledger or your last optimistically confirmed slot is below 246464040
+## Appendix: Resolution if you did not preserve your ledger or your last optimistically confirmed slot is below 254108256
 
 NOT RECOMMENDED - this resolution should only be attempted if your ledger/ directory is unavailable or you are unable to produce a snapshot for 254108257.
 
