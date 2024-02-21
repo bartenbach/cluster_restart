@@ -47,7 +47,7 @@ Shred version: 35459
 --expected-shred-version 35459 \
 ```
 
-(Remove the previous value of “--expected-shred-version“ if present). 
+(Remove the previous value of “--expected-shred-version“ if present)
 
 Once the cluster restarts and normal operation resumes, remember to remove --wait-for-supermajority and --expected-bank-hash before the next update or restart. They are only required for the restart. You can also go back to your old known-validators at that point.
 
@@ -68,14 +68,14 @@ solana --url http://127.0.0.1:8899 slot
 
 Verify that you have the correct identity configuration with this command
 ```
-solana-validator -l /PATH/TO/LEDGER contact-info
+solana-validator -l <ledger-path> contact-info
 ```
 
 Any number other than 254108257 means you did not complete the steps correctly.
 
 Once started you should see log entries for “Activate stake” visible in gossip and “waiting for 80% of stake” to be visible. You can track these to see how stake progresses.
 
-If you couldn’t produce your snapshot locally follow appendix on next page below 
+If you couldn’t produce your snapshot locally follow appendix on next page below.
 
 
 
@@ -94,12 +94,4 @@ Add these arguments to restart:
  --wait-for-supermajority 254108257 \
  --expected-shred-version 35459 \
  --expected-bank-hash 4rWEDhTyQVgTw6sPoCthXmUNmjeiwsdKQ5ZNvpEi3uvk \
-```
-
-## Additional snapshot sources:
-If you follow this add back –no-snapshot-fetch, you can remove old snapshots, none should have a higher slot than the one you download.
-
-You can use these known validators:
-
-```
 ```
